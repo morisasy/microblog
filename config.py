@@ -1,5 +1,7 @@
 #config.py: Secret key configuration
 
+# flask shell
+
 import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
