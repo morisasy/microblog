@@ -52,10 +52,7 @@ class Post(db.Model):
     def __repr__(self):
         return '<Post {}>'.format(self.body)
     
-class EditProfileForm(FlaskForm):
-    username = StringField('Username', validators=[DataRequired()])
-    about_me = TextAreaField('About me', validators=[Length(min=0, max=140)])
-    submit = SubmitField('Submit')
+
 
     
 
